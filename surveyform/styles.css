@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+body {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, blue, cyan) fixed;
+    color: white;
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+fieldset {
+    border: none;
+    padding: 10px;
+}
+
+#title, #description {
+    text-align: center;
+}
+.container {
+    width: 75%;   
+    max-width: 700px;
+    margin: 50px auto 50px auto;
+    padding: 20px;
+    background-color: hsla(100, 0%, 50%, 50%);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+
+label {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    /*border: 2px solid black;*/
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 3px;
+    
+}
+
+textarea{
+    resize: vertical;
+}
+
+.inline {
+    width: unset;
+    vertical-align: middle;
+    margin: 0;
+    padding: 10px;
+}
