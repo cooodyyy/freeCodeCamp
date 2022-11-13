@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Original Trombones shop" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Original Trombones</title>
+  </head>
+  <body>
+    <header id="header">
+      <img
+        id="header-img"
+        src="img/product-landing-page-logo.png"
+        alt="Original Trombones logo"
+      />
+      <nav id="nav-bar">
+        <ul id="nav-list">
+          <li class="nav-item">
+            <a class="nav-link" href="#Features">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#How_It_Works">How It Works</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Pricing">Pricing</a>
+          </li>
+        </ul>
+
+        <button id="hamburger" aria-label="menu">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero">
+        <h1>Handcrafted, home-made masterpieces</h1>
+
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter Your email here"
+            required
+          />
+          <input type="submit" id="submit" value="GET STARTED" />
+        </form>
+      </section>
+
+      <section id="Features">
+        <ul id="features-list">
+          <li class="features-item">
+            <h2 class="features-item-header">Premium Materials</h2>
+            <p class="features-item-text">
+              Our trombones use the shiniest brass which is sourced locally.
+              This will increase the longevity of your purchase.
+            </p>
+          </li>
+
+          <li class="features-item">
+            <h2 class="features-item-header">Fast Shipping</h2>
+            <p class="features-item-text">
+              We make sure you recieve your trombone as soon as we have finished
+              making it. We also provide free returns if you are not satisfied.
+            </p>
+          </li>
+
+          <li class="features-item">
+            <h2 class="features-item-header">Quality Assurance</h2>
+            <p class="features-item-text">
+              For every purchase you make, we will ensure there are no damages
+              or faults and we will check and test the pitch of your instrument.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section id="How_It_Works">
+        <iframe
+          id="video"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/y8Yv4pnO7qc"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </section>
+
+      <section id="Pricing">
+        <ul id="trombone-list">
+          <li class="trombone-item">
+            <h3 class="trombone-item--header">TENOR TROMBONE</h3>
+            <h4 class="trombone-item--price">$600</h4>
+            <ul class="trombone-item--decription-list">
+              <li class="trombone-item--description-list--item">
+                Lorem ipsum.
+              </li>
+              <li class="trombone-item--description-list--item">
+                Lorem ipsum.
+              </li>
+              <li class="trombone-item--description-list--item">
+                Lorem ipsum dolor.
+              </li>
+              <li class="trombone-item--description-list--item">
+                Lorem ipsum.
+              </li>
+            </ul>
+            <button class="trombone-btn">SELECT</button>
+          </li>
+
+          <li class="trombone-item">
+            <h3 class="trombone-item--header">BASS TROMBONE</h3>
+            <h4 class="trombone-item--price">$900</h4>
+            <ul class="trombone-item--decription-list">
+              <li class="trombone-item--description-list--item">
+                Lorem ipsum.
+              </li>
+              <li class="trombone-item--description-list--item">
+                Lorem ipsum.
+              </li>
+              <li class="trombone-item--description-list--item">
+                Lorem ipsum dolor.
+              </li>
+              <li class="trombone-item--description-list--item">
+                Lorem ipsum.
+              </li>
+            </ul>
+            <button class="trombone-btn">SELECT</button>
+          </li>
+
+          <li class="trombone-item">
+            <h3 class="trombone-item--header">VALVE TROMBONE</h3>
+            <h4 class="trombone-item--price">$1200</h4>
+            <ul class="trombone-item--decription-list">
+              <li class="trombone-item--description-list--item">
+                Plays similar to a Trumpet
+              </li>
+              <li class="trombone-item--description-list--item">
+                Great for Jazz Bands
+              </li>
+              <li class="trombone-item--description-list--item">
+                Lorem ipsum dolor.
+              </li>
+              <li class="trombone-item--description-list--item">
+                Lorem ipsum.
+              </li>
+            </ul>
+            <button class="trombone-btn">SELECT</button>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <ul class="footer-list">
+        <li class="footer-list--item"><a href="#hero">Privacy</a></li>
+        <li class="footer-list--item"><a href="#hero">Terms</a></li>
+        <li class="footer-list--item"><a href="#hero">Contact</a></li>
+      </ul>
+      <small>Copyright 2016, Original Trombones</small>
+    </footer>
+
+    <script>
+      const hamburger = document.querySelector("#hamburger");
+      const mobileNav = document.querySelector("#nav-list");
+
+      const handleClick = () => {
+        hamburger.classList.toggle("isopen");
+        mobileNav.classList.toggle("isopen");
+      };
+
+      hamburger.addEventListener("click", handleClick);
+    </script>
+  </body>
+</html>
