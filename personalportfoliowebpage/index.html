@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Personal Portfolio Webpage</title>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <ul class="navigation">
+          <li class="navigation__item">
+            <a href="#welcome-section" class="navigation__link text">About</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#projects" class="navigation__link text">Work</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#contact" class="navigation__link text">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- WELCOME SECTION -->
+      <section id="welcome-section" class="welcome-section leading-color">
+        <h1 class="welcome-section__header--primary text">
+          Hey I am Michał
+          <span class="welcome-section__header--secondary block"
+            >a web developer</span
+          >
+        </h1>
+      </section>
+      <!-- PROJECT SECTION -->
+      <section id="projects" class="project-section">
+        <div class="page-wrapper">
+          <h2 class="project-section__header text">
+            These are some of my projects
+          </h2>
+          <hr class="project-section__underline page-wrapper" />
+          <ul class="project-section__list">
+            <!-- FIRST PROJECT -->
+            <li class="project-tile project-section__tile leading-color">
+              <a class="project-section__link" href="#">
+                <img
+                  class="project-section__image"
+                  src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg"
+                  alt="project image"
+                />
+                <p class="project-section__title text">
+                  <span class="project-section__title--animation"> < </span>
+                  Tribute Page
+                  <span class="project-section__title--animation"> /> </span>
+                </p>
+              </a>
+            </li>
+            <!-- SECOND PROJECT -->
+            <li class="project-tile project-section__tile leading-color">
+              <a class="project-section__link" href="#">
+                <img
+                  class="project-section__image"
+                  src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png"
+                  alt="project image"
+                />
+                <p class="project-section__title text">
+                  <span class="project-section__title--animation"> < </span>
+                  Random Quote Machine
+                  <span class="project-section__title--animation"> /> </span>
+                </p>
+              </a>
+            </li>
+            <!-- THIRD PROJECT -->
+            <li class="project-tile project-section__tile leading-color">
+              <a class="project-section__link" href="#">
+                <img
+                  class="project-section__image"
+                  src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png"
+                  alt="project image"
+                />
+                <p class="project-section__title text">
+                  <span class="project-section__title--animation"> < </span>
+                  JavaScript Calculator
+                  <span class="project-section__title--animation"> /> </span>
+                </p>
+              </a>
+            </li>
+            <!-- FOURTH PROJECT -->
+            <li class="project-tile project-section__tile leading-color">
+              <a class="project-section__link" href="#">
+                <img
+                  class="project-section__image"
+                  src="https://cdn.freecodecamp.org/testable-projects-fcc/images/map.jpg"
+                  alt="project image"
+                />
+                <p class="project-section__title text">
+                  <span class="project-section__title--animation"> < </span>
+                  Map Data Across the Globe
+                  <span class="project-section__title--animation"> /> </span>
+                </p>
+              </a>
+            </li>
+            <!-- FIFTH PROJECT -->
+            <li class="project-tile project-section__tile leading-color">
+              <a class="project-section__link" href="#">
+                <img
+                  class="project-section__image"
+                  src="https://cdn.freecodecamp.org/testable-projects-fcc/images/wiki.png"
+                  alt="project image"
+                />
+                <p class="project-section__title text">
+                  <span class="project-section__title--animation"> < </span>
+                  Wikipedia Viewer
+                  <span class="project-section__title--animation"> /> </span>
+                </p>
+              </a>
+            </li>
+            <!-- SIXTH PROJECT -->
+            <li class="project-tile project-section__tile leading-color">
+              <a class="project-section__link" href="#">
+                <img
+                  class="project-section__image"
+                  src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tic-tac-toe.png"
+                  alt="project image"
+                />
+                <p class="project-section__title text">
+                  <span class="project-section__title--animation"> < </span>
+                  Tic Tac Toe Game
+                  <span class="project-section__title--animation"> /> </span>
+                </p>
+              </a>
+            </li>
+          </ul>
+          <button class="project-section__button text leading-color">
+            Show all
+            <span class="project-section__button--animation">></span>
+          </button>
+        </div>
+      </section>
+      <!-- CONTACT SECTION -->
+      <section id="contact" class="contact-section leading-color">
+        <div class="page-wrapper">
+          <h2 class="contact-section__header--primary text">
+            Let's work together...
+            <span class="contact-section__header--secondary block text">
+              How do You take Your coffee?
+            </span>
+          </h2>
+
+          <ul class="contact-section__list">
+            <li class="contact-section__item">
+              <a href="#" class="contact-section__link text">Facebook</a>
+            </li>
+            <li class="contact-section__item">
+              <a
+                id="profile-link"
+                class="contact-section__link text"
+                target="_blank"
+                href="#"
+                >Github
+              </a>
+            </li>
+            <li class="contact-section__item">
+              <a href="#" class="contact-section__link text">Twitter</a>
+            </li>
+            <li class="contact-section__item">
+              <a href="#" class="contact-section__link text">Send a mail</a>
+            </li>
+            <li class="contact-section__item">
+              <a href="#" class="contact-section__link text">Call me</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <!-- FOOTER SECTION -->
+    <footer class="footer leading-color">
+      <small class="footer___text text block">
+        **This is just a fake portfolio. All the projects and contact details
+        given are not real.
+      </small>
+      <small class="footer__text text block">Created for freeCodeCamp</small>
+    </footer>
+  </body>
+</html>
